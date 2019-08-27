@@ -1,0 +1,42 @@
+{
+  "config": {
+    "hw_platform": ["MTP"],
+    "soc_id": ["339"]
+  },
+  "tmd3725": {
+    "owner": "sns_tmd3725",
+    ".calibration": {
+      "owner": "sns_tmd3725",
+      ".somc": {
+        "owner": "sns_tmd3725",
+        "prox_high_threshold": { "type": "int", "ver": "1",
+          "data": "70"
+        },
+        "prox_low_threshold": { "type": "int", "ver": "1",
+          "data": "50"
+        },
+        "prox_pulse": { "type": "int", "ver": "1",
+          "data": "64"
+        },
+        "Re-Cal_interval": { "type": "int", "ver": "1",
+          "data": "0"
+        },
+        "prox_ldrive": { "type": "int", "ver": "1",
+          "data": "36"
+        },
+        "prox_plen": { "type": "int", "ver": "1",
+          "data": "4"
+        },
+        "prox_gain": { "type": "int", "ver": "1",
+          "data": "2"
+        },
+        "wait_time": { "type": "int", "ver": "1",
+          "data": "169580"
+        },
+        "prox_avg": { "type": "int", "ver": "1",
+          "data": "8"
+        }
+      }
+    }
+  }
+}
