@@ -15,3 +15,9 @@
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_j8110.mk \
                      $(LOCAL_DIR)/aosp_j9110.mk
 
+COMMON_LUNCH_CHOICES += \
+    aosp_j8110-eng \
+    aosp_j8110-userdebug \
+    aosp_j9110-eng \
+    aosp_j9110-userdebug
+
