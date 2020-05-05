@@ -79,11 +79,11 @@ PRODUCT_PACKAGES += \
     TransPowerSensors
 
 PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
+PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
 PRODUCT_PROPERTY_OVERRIDES := \
-    ro.sf.lcd_density=420 \
+    ro.sf.lcd_density=630 \
     ro.usb.pid_suffix=205
 
 # Inherit from those products. Most specific first.
